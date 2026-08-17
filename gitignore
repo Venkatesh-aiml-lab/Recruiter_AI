@@ -1,0 +1,198 @@
+# ============================================================
+# RecruiterAI - .gitignore
+# Python / ML / NLP / Hugging Face / Google Colab project
+# ============================================================
+
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.python-version
+
+# ----------------------------
+# Virtual environments
+# ----------------------------
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ----------------------------
+# Environment variables / secrets
+# ----------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+credentials.json
+service-account*.json
+
+# ----------------------------
+# Jupyter / Google Colab
+# ----------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.jupyter/
+
+# ----------------------------
+# IDE / editors
+# ----------------------------
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# ----------------------------
+# Operating system files
+# ----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----------------------------
+# Logs / temporary files
+# ----------------------------
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# ----------------------------
+# Python packaging / build
+# ----------------------------
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ----------------------------
+# Testing / coverage
+# ----------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# ----------------------------
+# Type/lint caches
+# ----------------------------
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# ----------------------------
+# ML / NLP model artifacts
+# ----------------------------
+models/
+model/
+checkpoints/
+checkpoint-*/
+outputs/
+output/
+runs/
+artifacts/
+
+# Common serialized model files
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.keras
+
+# Hugging Face / Transformers caches
+.cache/
+huggingface/
+hf_cache/
+
+# ----------------------------
+# MLflow
+# ----------------------------
+mlruns/
+mlartifacts/
+mlflow.db
+
+# ----------------------------
+# Experiment / tracking tools
+# ----------------------------
+wandb/
+lightning_logs/
+tensorboard/
+*.tfevents.*
+
+# ----------------------------
+# Large/local data files
+# Keep small sample data in Git if needed.
+# Uncomment patterns below if your dataset should NOT be pushed.
+# ----------------------------
+# data/
+# *.csv
+# *.parquet
+# *.jsonl
+# *.xlsx
+# *.xls
+
+# ----------------------------
+# Generated reports / exports
+# Uncomment if these are generated and should not be versioned.
+# ----------------------------
+# reports/
+# results/
+# predictions/
+# *.pdf
+
+# ----------------------------
+# Archives
+# ----------------------------
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# ----------------------------
+# Accidental files previously seen in RecruiterAI
+# ----------------------------
+0
+1
+Evidence
+Experience-Gap
+If
+Recall@10
