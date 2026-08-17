@@ -1,0 +1,20 @@
+# RecruiterAI dependencies
+# Versions below match the Google Colab environment recorded by the project notebook.
+
+pandas==2.2.2
+numpy==2.0.2
+scikit-learn==1.6.1
+matplotlib
+joblib
+tensorflow==2.20.0
+
+# PyTorch is normally preinstalled in Google Colab.
+# The notebook recorded PyTorch 2.11.0+cu128.
+# Using the base version here avoids forcing a CUDA-specific wheel.
+torch==2.11.0
+
+transformers==5.15.0
+sentence-transformers==5.7.0
+datasets==5.0.1
+accelerate==1.14.0
+faiss-cpu==1.15.0
